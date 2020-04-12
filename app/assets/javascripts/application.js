@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+
+$(document).on('turbolinks:load', function() {
+  message_appender("hellow a")
+});
+
+message_appender = function(content) {
+  $('#messages-table').append(content);
+}

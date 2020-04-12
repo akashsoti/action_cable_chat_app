@@ -6,4 +6,4 @@ test:
 
 production:
   adapter: redis
-  url: redis://localhost:6379/1
+  url: redis://redistogo:bb4d9e4e4fd7bae3068aa08f86b7af81@pearlfish.redistogo.com:9686/
